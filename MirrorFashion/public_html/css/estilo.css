@@ -135,9 +135,9 @@ body {
 }
 
 footer {
-   background-image: url(../img/fundo-rodape.png);
-   clear: both;
-   padding: 20px ;
+    background-image: url(../img/fundo-rodape.png);
+    clear: both;
+    padding: 20px ;
 }
 
 footer .container{
@@ -181,10 +181,36 @@ footer .container{
     background-image: url(../img/busca.png);
     background-repeat: no-repeat;
     border: none;
-     /*tamanho da imagem*/
+    /*tamanho da imagem*/
     width: 20px;
     height: 20px;
-     /*imagem replacement*/
+    /*imagem replacement*/
     text-indent: -9999px;
 }
+
+.menu-opcoes a:hover {
+    color: #007DC6;
+}
+
+.menu-opcoes a:active {
+    color: #7CFC00;
+}
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos ul ul li {
+    background-color: #DCDCDC;
+}
+
+.menu-departamentos li li a:before {
+    content: '- ';
+}
+
+
 
